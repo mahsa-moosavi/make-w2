@@ -1,0 +1,38 @@
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsl(60, 48%, 79%);
+    border-radius: 10px;
+}
+
+.more{
+    color: hsl(25, 90%, 61%);
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.dep{
+    margin: 1rem;
+    font-style: normal;
+}
+
+@media(max-width:425px){
+  
+   .sec3{
+    display: inline-block;
+    min-width: 425px;
+    margin: auto;
+   }
+
+}
+@media(max-width:375px){
+    .sec2{
+        display: inline-block;
+        margin: auto;
+        
+    }
+}
