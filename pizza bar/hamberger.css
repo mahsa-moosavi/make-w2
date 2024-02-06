@@ -1,0 +1,221 @@
+main{
+    margin-top: 100px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signup{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+    box-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    width: max-content;
+    height: max-content;
+    margin-right: 50vw;
+    margin-left: auto;
+    margin-bottom: 20vw;
+    
+}
+
+.rules{
+    background-color: rgba(255, 75, 75, 0.9);
+    width: 20vw;
+    /* height: 40vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(251, 255, 195);
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-right: 10px groove rgba(232, 115, 115, 0.9);
+
+}
+.p-title{
+    font-weight: 600;
+    font-size: 2vw;
+    align-self: center;
+}
+.note{
+    margin-top: 10px;
+    border-top: 1px dotted rgb(249, 228, 255);
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 0.9vw;
+}
+.signup-rules{
+    font-size: 10px;
+}
+.signup-rules p{
+    text-align: left;
+
+}
+
+
+.right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: hsla(59, 100%, 71%, 0.8);
+    width: max-content;
+    /* height: calc(max-content*2); */
+    padding: 20px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.right p{
+    font-weight: 600;
+    font-size: 2vw;
+    align-self: center;
+    color: hsl(0, 91%, 57%);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form input:not(input[type="checkbox"]){
+    margin-bottom: 20px;
+    width: 20vw;
+    height: 2vw;
+    border-radius: 5px;
+}
+.form .btn{
+    border-radius: 20px;
+}
+.form input[type="checkbox"]{
+    margin-right: 3px;
+    width: 1vw;
+    height: 1vw;
+}
+
+@media (max-width:1023px){
+    .form{
+        font-size: 10px;
+    }
+    .note{
+        font-size: 0.9vw;
+    }
+    .signup-rules{
+        font-size: 0.8vw;
+    }
+}
+
+@media (max-width:768px){
+    .rules{
+        width: 35vw;
+    }
+    .form .btn{
+        font-size: 1.2vw;
+        padding: 1vw 3vw;
+    }
+    .right p{
+        margin-bottom: 3vw;
+    }
+
+    main{
+        margin-top: 100px;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content h1{
+        font-size: 6vw;
+    }
+    .content p{
+        font-size: 3vw;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 2vw;
+    }
+    
+    .form input:not(input[type="checkbox"]){
+        margin-bottom: 20px;
+        width: 80%;
+        height: 2vw;
+        border-radius: 20px;
+    }
+    .form input[type="checkbox"]{
+        width: 2vw;
+        height: 2vw;
+    }
+
+
+    .note{
+        margin-top: 10px;
+        border-top: 1px dotted darkcyan;
+        padding: 0;
+        margin-bottom: 50px;
+        font-size: 1.5vw;
+    }
+    .signup-rules{
+        font-size: 1.2vw;
+    }
+}
+
+@media (max-width:425px){
+    main{
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .signup{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right .form{
+        font-size: 2vw;
+    }
+    .signup-rules{
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:375px) {
+    .right{
+        width: 40vw;
+        justify-content: space-between;
+    }
+
+    .form input:not(input[type="checkbox"]){
+        margin-bottom: 3vw;
+        width: 100%;
+        height: 5%;
+    }
+    .right p{
+        font-size: 3vw;
+        margin-top: 10vw;
+    }
+    .rules{
+        width: 40vw;
+    }
+    .p-title{
+        font-size: 4vw;
+    }
+    .note{
+        padding: 0;
+        margin-bottom: 30%;
+        font-size: 1.8vw;
+    }
+    .signup-rules{
+        font-size: 1.5vw;
+    }
+}
